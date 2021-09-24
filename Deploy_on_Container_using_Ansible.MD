@@ -11,7 +11,7 @@
    # Pull tomcat latest image from dockerhub 
    From tomcat
    # Maintainer
-   MAINTAINER "Gunish Jain" 
+   MAINTAINER "Shubh Garg" 
 
    # copy war file on to container 
    COPY ./webapp.war /usr/local/tomcat/webapps
